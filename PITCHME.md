@@ -1,10 +1,13 @@
-## GitPitch Demo
+# GitPitch Demo
 
----
+This demo shows how to use GitPitch
 
-slide 1
+# Text slide
 
+# Image slide
 
----
+# Video slide
 
-slide 2
+# Code slide
+
+# Change/Use themes
