@@ -2,12 +2,19 @@
 
 This demo shows how to use GitPitch
 
-# Text slide
+---
 
-# Image slide
+## Text slide
 
-# Video slide
+---
 
-# Code slide
+## Image slide
 
-# Change/Use themes
+---
+## Video slide
+
+---
+## Code slide
+
+---
+## Change/Use themes
