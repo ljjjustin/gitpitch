@@ -119,7 +119,37 @@ $ nova boot --flavor xxx --image xxx --nic net-id=xxx xxx
 
 ---
 ### online deployment
-![deployment](assets/ironic-deploy-arch-v2.png)
+![deployment architecture](assets/ironic-deploy-arch-v2.png)
+
+---
+### online deployment(2)
+- 部署和配置ironic服务
+  * 准备userdata
+  * 调用nova创建虚拟机
+- 部署和配置裸机自动发现服务
+- 前提
+  * 在neutron中创建虚拟网络
+
+---
+### online deployment(3)
+- 部署nova-compute（使用ironic driver）
+- 部署nova-serialproxy
+
+---
+### online deployment(4)
+- 录入节点的IPMI信息
+- 自动发现其余的配置信息
+  * CPU，内存，网络，磁盘
+- 分配console port
+
+---
+### online deployment(5)
+- 校验是否配置了足够的信息，是的ironic可以进行装机
+
+---
+### online deployment(6)
+- nova hypervisor-list
+- nova boot
 
 ---
 ### Thanks!
